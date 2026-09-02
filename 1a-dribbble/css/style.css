@@ -1,0 +1,50 @@
+header {
+    background: gold;
+    height: 100px;
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    background: brown;
+    /* height: 100px; */
+    width: 1440px;
+    margin: 0 auto;
+}
+
+footer {
+    background: goldenrod;
+    height: 100px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    background: red;
+}
+
+.menu {
+    background: yellow;
+    width: 400px;
+}
+.menu ul {
+    display: flex;
+}
+
+.utils {
+    background: lime;
+}
+
+.post_container {
+    background: pink; 
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.post { 
+    width: 400px;
+    height: 300px;
+    background: purple; 
+}
